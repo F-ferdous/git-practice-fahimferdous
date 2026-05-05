@@ -5,9 +5,9 @@ def add(a, b):
         raise TypeError("add() requires two numbers or compatible types")
 
 
-def subtract(a, b):
+def subtract(x, y):
     try:
-        return a - b
+        return x - y
     except TypeError:
         raise TypeError("subtract() requires two numbers or compatible types")
 
